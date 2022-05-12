@@ -212,6 +212,24 @@ main{
     margin-bottom: 15px;
 }
 
+.area-img-robotica{
+    width: 700px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 40px;
+    
+   
+}
+
+.area-texto-rob{
+    width: 751px;
+    height: 100px;
+    margin-bottom: 10px;
+    text-align:justify;
+}
+
 
 
 
