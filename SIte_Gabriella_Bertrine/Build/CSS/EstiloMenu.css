@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color:  #f0ebeb;
+    background-image: url('../imagens/fundo.png');
+    
+    
+}
+
+.centro{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: black;
+}
+
+.menu{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    background-color: #9bf0ff;
+    align-items: center;
+    justify-content: right;  
+}
+
+.introducao{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nome{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+
+.apresentacao{
+    width: 751px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;  
+}
+
+
+.titulo-apresentacao{
+    width: 800px;
+    height: 130px;
+    line-height: 61px;
+    font-size: 50px;
+    font-weight:700;
+    text-align: center;
+
+}
+
+.explicacao{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+.area-foto{
+    width: 350px;
+    height: 329px; 
+    background-image:url('../imagens/perfil.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+ul, li{
+    float: left;
+    margin-right: 20px;
+    line-height: 24px;   
+}
+li, a{
+    text-decoration: none;
+    color:  black;
+}
+li, a:hover{
+    color: #2A7AE4 ;
+    transition: 2s;
+}
+
+main{
+    margin-top: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.opcoes{  
+    width: center;     
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.sobre-mim-config{
+    width: 350px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 15px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+/*index2*/
+
+.directPage{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 751px; 
+
+}
+
+.selecionar{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-right: 7px;
+    background-color: wheat;
+}
+
+.sobre-mim{  
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.familia{  
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Hobbies{  
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos{
+    font-size: 32px;
+    font-weight:700;
+    text-align: center;
+}
+
+.area-texto{
+    width: 751px;
+    height: 200px;
+    margin-bottom: 100px;
+    text-align:justify;
+}
+
+.foto-luna{
+    width: 300;
+    height: 300px; 
+    background-image:url('../imagens/luna.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+.foto-family{
+    width: 300;
+    height: 300px; 
+    background-image:url('../imagens/family.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+
+.imagens_sobre{
+    width: auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+.area-img-sobre{
+    margin-top: 150px;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+}
+
+.imagens_troca{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* CSS */
+.botao_menu {
+  align-items: center;
+  appearance: none;
+  background-color: #fdfcfc;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(243, 241, 247, 0.4) 0 4px 4px,rgba(240, 238, 245, 0.3) 0 7px 13px -3px,#d6d6f5 0 -3px 0 inset;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-bottom: 15px;
+
+
+}
+
+
+.botao_menu:hover {
+    background-color: blue;
+    box-shadow: rgba(67, 26, 252, 0.4) 0 4px 8px, rgba(67, 26, 252, 0.4) 0 7px 13px -3px, #3e30ff 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
